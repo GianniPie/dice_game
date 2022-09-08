@@ -1,0 +1,42 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            
+        <div id="overlay">
+            <div id="modal">
+                <h1>Flip the coin</h1>
+                <div id="coin">
+                    <span id="coin-span"></span>
+                </div>
+                <button id="flipBtn">Flip</button>
+            </div>
+        </div>
+        
+            <h1 id="message">Player Turn</h1>
+            <div class="players">
+                <div id="player1" class="player-frame">
+                    <h1>Score: 
+                        <span id="player1Scoreboard">0</span>
+                    </h1>
+                    <div id="player1Die" class="dice zero"></div>
+                </div>
+                <div id="player2" class="player-frame">
+                    <h1>Score: 
+                        <span id="player2Scoreboard">0</span>
+                    </h1>
+                    <div id="player2Die" class="dice zero"></div>
+                </div>
+            </div>
+
+            <button id="rollBtn">Roll Dice</button>
+            <button id="resetBtn">Reset Game</button>
+         
+         <div class="label"><span>GianniPie</span></div>   
+        </div>
+        
+        <script src="index.pack.js"></script>
+    </body>
+</html>
